@@ -85,3 +85,12 @@ A Notes Management Application with user authentication, tags, and search functi
 - **Database**: PostgreSQL
 - **Authentication**: JWT
 - **Containerization**: Docker
+
+
+## Running Tests
+
+To run the tests, make sure you have all dependencies installed and use `pytest`:
+
+```bash
+pip install -r requirements.txt
+pytest tests/
